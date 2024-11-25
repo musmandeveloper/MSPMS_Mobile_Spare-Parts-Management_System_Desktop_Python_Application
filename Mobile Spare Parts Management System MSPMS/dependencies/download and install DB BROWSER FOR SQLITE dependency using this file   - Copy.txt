@@ -1,0 +1,22 @@
+
+
+Download and Install the python dependency
+
+1. Download the DB Browser for SQLite (DB4S) software from their original website:
+   https://sqlitebrowser.org/
+
+2. Just Intall this software depedency in your pc any Local Disk you want. 
+   But recommended is use default path of Local Disk C.
+
+4. It help to open and  manupulate the sqlite databse files.
+
+
+
+
+
+
+
+
+
+
+
