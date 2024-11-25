@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ report_name }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .header img {
+            width: 100px;
+            height: auto;
+        }
+        .header h1 {
+            font-size: 24px;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .table th, .table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .table th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+        .no-data {
+            text-align: center;
+            font-style: italic;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="{{ logo_path }}" alt="Logo" width="20px" height="20px">
+        <h1>Mobile Spare Parts Management System - MSPMS</h1>
+        <h2>Report: From {{ start_date }} To {{ end_date }}</h2>
+    </div>
+
+    <div class="content">
+        <p>Dated: {{ current_date }}</p>
+        <p>Time: {{ current_time }}</p>
+
+        <!-- Transactions Section -->
+        <div class="section-title">Transactions:</div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Type</th>
+                    <th>Username</th>
+                    <th>Grand Total Price</th>
+                    <th>Paid Price</th>
+                    <th>Balance Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% if transactions == [] %}
+                <tr>
+                    <td class="no-data" colspan="8">No data found between the selected interval.</td>
+                </tr>
+                {% else %}
+                    {% for transaction in transactions %}
+                    <tr>
+                        <td>{{ transaction['id'] }}</td>
+                        <td>{{ transaction['date'] }}</td>
+                        <td>{{ transaction['time'] }}</td>
+                        <td>{{ transaction['type'] }}</td>
+                        <td>{{ transaction['username'] }}</td>
+                        <td>{{ transaction['grand_total_price'] }}</td>
+                        <td>{{ transaction['paid_price'] }}</td>
+                        <td>{{ transaction['balance_price'] }}</td>
+                    </tr>
+                    {% endfor %}
+                {% endif %}
+            </tbody>
+        </table>
+
+        <!-- Inventory Section -->
+        <div class="section-title">Transaction Items:</div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Transaction ID</th>                    
+                    <th>Item Name</th>
+                    <th>Category</th>
+                    <th>Quantity</th>
+                    <th>Purchase Price</th>
+                    <th>Sale Price</th>                    
+                    <th>Total Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% if transaction_items == [] %}
+                <tr>
+                    <td class="no-data" colspan="7">No data found between the selected interval.</td>
+                </tr>
+                {% else %}
+                    {% for transaction_item in transaction_items %}
+                    <tr>
+                        <td>{{ transaction_item[0] }}</td>
+                        <td>{{ transaction_item[1] }}</td>
+                        <td>{{ transaction_item[2] }}</td>
+                        <td>{{ transaction_item[3] }}</td>
+                        <td>{{ transaction_item[4] }}</td>
+                        <td>{{ transaction_item[5] }}</td>
+                        <td>{{ transaction_item[6] }}</td>                                                                                                
+                    </tr>
+                    {% endfor %}
+               {% endif %}
+            </tbody>
+        </table>
+        
+
+        <!-- Profit and Loss Section -->
+        <div class="section-title">Profit and Loss:</div>
+        {% if profit_loss.profit == 0 and profit_loss.loss == 0 %}
+            <p>No profit or loss was recorded between the selected interval.</p>
+        {% else %}
+            <p>Total Profit: {{ profit_loss.profit }}</p>
+            <p>Total Loss: {{ profit_loss.loss }}</p>
+        {% endif %}
+
+        <!-- User Transactions Section -->
+        <div class="section-title">Users Performance:</div>
+        {% if user_transactions == "[]" %}
+            <p>No user transactions were recorded between the selected interval.</p>
+        {% else %}
+            <ul>
+                {% for user_transaction in user_transactions %}
+                <li>{{ user_transaction[0] }}: {{ user_transaction[1] }} transactions</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+</body>
+
+</html>
+
