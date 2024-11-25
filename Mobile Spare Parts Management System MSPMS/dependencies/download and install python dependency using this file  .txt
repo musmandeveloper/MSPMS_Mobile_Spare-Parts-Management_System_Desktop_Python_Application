@@ -1,0 +1,26 @@
+
+
+NOTE: Latest Pythons only work on Windows 10 and above. So on Windows 7 & 8, this project will not work.
+
+
+Download and Install the python dependency
+
+1. Download the wkhtmltopdf software from their original website:
+   https://www.python.org/downloads/
+
+2. Just Intall this software depedency in your pc any Local Disk you want. 
+   But recommended is use default path of Local Disk C.
+
+3. Install it for all users and Tick the add pip library during install.
+
+4. NOTE: Must Check the box 'add to path' during installaton.
+
+
+
+
+
+
+
+
+
+

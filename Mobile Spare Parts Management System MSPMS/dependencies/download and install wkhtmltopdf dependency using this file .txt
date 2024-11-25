@@ -1,0 +1,22 @@
+
+
+
+
+Download and Install the wkhtmltopdf dependency
+
+1. Download the wkhtmltopdf spftware from their original website:
+   https://wkhtmltopdf.org/
+
+2. Intall this software depedency in the project folder 'dependency' like this:
+   /dependency/wkhtmltopdf
+
+3. Then to use it im software, we will copy path of the folder 'bin'from this installed sofware
+   folder location. I already use its dynamic path  software i hope no need to add by you either 
+   your project is in any local disk or any folders. But of it work, then manually add 'bin' path
+   in report.py file to make pdf file of your reports from html template.
+
+
+
+
+
+
