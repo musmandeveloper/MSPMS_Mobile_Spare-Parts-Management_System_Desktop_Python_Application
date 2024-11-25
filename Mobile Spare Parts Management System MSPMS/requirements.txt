@@ -1,0 +1,18 @@
+
+
+
+# NOTE first make sure you have installed python into your computer and add its PATH into environment variables.
+
+
+# Project all Dependencies/Packages/Libraries/Other Requirements etc
+
+pip
+tk
+mysql-connector-python
+pillow
+tkcalendar
+jinja2
+wkhtmltopdf
+pdfkit
+PyPDF2
+
