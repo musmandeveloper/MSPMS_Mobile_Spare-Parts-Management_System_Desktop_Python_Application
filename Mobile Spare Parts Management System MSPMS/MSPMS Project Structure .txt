@@ -1,0 +1,62 @@
+
+
+
+
+                     ### MSPMS - Project Structure ###
+
+
+
+Spare-Parts-Management-System/
+├── venev                          # Virtual Environment
+├── assets                         # Containing assets images files
+├── dependencies                   # Setup files of dependent softwares that needed for work
+├── ├── Python v3.12.4 installer 64 bit.exe   # Python Setup
+├── ├── wkhtmltopdf-0.12                      # Html to PDF report files maker
+├── assets                         # Containing assets images files
+├── ├── logo.png
+├── ├── icon.png
+├── README.md                      # Read Me File with all  A to Z Instructions
+├── requirements.txt               # List of python packages/lib on each separate line to Install in venv
+├── run_app.bat                    # Batch file to activate venv & trigger main.py
+├── database.py                    # Database connection/setup logic (Schemas)
+├── initial_data.py                # Insert initial data logic
+├── main.py                        # main File that triggered by run_app batch, then further trigger the splash screen
+├── admin_dashboard_screen.py
+├── salesman_dashboard_screen.py
+├── assign_authorization_screen.py
+├── login_screen.py
+├── manage_authorization_screen.py
+├── manage_permissions_screen.py
+├── manage_roles_screen.py
+├── manage_spare_parts_screen.py
+├── manage_users_screen.py
+├── sale_transaction_screen.py
+├── purchase_transaction_screen.py
+├── record_transaction_screen.py
+├── update_transaction_screen.py
+├── view_transactions_screen.py
+├── report_template.html
+├── reporting_screen.py
+├── login_screen.py
+├── signup_screen.py
+├── splash_screen.py
+├── authorization.py    # Backend Controller
+├── users.py            # Backend Controller
+├── auth.py             # Backend Controller
+├── roles.py            # Backend Controller
+├── permissions.py      # Backend Controller
+├── inventory.py        # Backend Controller
+├── transactions.py     # Backend Controller
+├── validate_input.py   # Validator
+├── sync.py
+└── utils.py
+
+
+
+
+
+
+
+
+
+
