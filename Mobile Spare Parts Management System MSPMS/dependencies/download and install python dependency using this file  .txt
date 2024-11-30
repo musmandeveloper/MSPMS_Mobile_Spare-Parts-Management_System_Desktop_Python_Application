@@ -5,7 +5,7 @@ NOTE: Latest Pythons only work on Windows 10 and above. So on Windows 7 & 8, thi
 
 Download and Install the python dependency
 
-1. Download the wkhtmltopdf software from their original website:
+1. Download the python software from their original website:
    https://www.python.org/downloads/
 
 2. Just Intall this software depedency in your pc any Local Disk you want. 
