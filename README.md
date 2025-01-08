@@ -215,7 +215,7 @@ Your contributions make this project better and more impactful. Thank you for ta
 
 
 ## 📜 License:
-This project is licensed under the MIT License. You are free to use, modify, and distribute the code as per the terms of the license.
+This project is licensed under the [MIT License]((https://opensource.org/licenses/MIT). You are free to use, modify, and distribute the code as per the terms of the license.
 
 ### What This Means for You ###
 
@@ -228,7 +228,7 @@ This project is licensed under the MIT License. You are free to use, modify, and
 **4. No Warranty:** This software is provided "as is," without any warranty of any kind. Use it at your own risk.
 
 ### Full License Text ###
-The complete license details can be found in the LICENSE file in the root of this repository.
+The complete license details can be found in the [LICENSE](LICENSE) file in the root of this repository.
 
 ### Contribution and Licensing ###
 By contributing to this repository, you agree that your contributions will also be licensed under the MIT License.
