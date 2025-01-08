@@ -57,7 +57,7 @@ technical and non-technical users.
 * Modular code structure for easy maintenance and scalability.
 
 
-## 04 Project Tools ##
+## Project Tools ##
 
 1. Python:
 Backbone of the application for developing the user interface, logic, and database interactions.
