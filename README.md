@@ -20,11 +20,14 @@ technical and non-technical users.
 
 
 ## 📸 Screenshots:
+Below are the following screenshots (SS) of the project:
 
-![Project Structure Image ](https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f)
+![Project Folder Structure Image](https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f)
+Project Folder Structure Image
 
 
 ## 🚀 Features:
+The project have following features:
 
 1. Database Management:
 * Local database: SQLite for offline data storage.
