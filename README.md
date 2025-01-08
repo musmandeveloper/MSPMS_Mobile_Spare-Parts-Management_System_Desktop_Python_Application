@@ -1,74 +1,15 @@
-# MSPMS_Mobile_Spare-Parts-Management_System_Desktop_Python_Application
-MSPMS_Mobile_Spare-Parts-Management_System_Desktop_Python_Application
 
-
-
-
-README File of Project "Mobile Spare-Parts Management System"
-
-
---------------------------
 ## 00 Project Structure ##
---------------------------
 
 ![Project Structure Image ](https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f)
 
-Spare-Parts-Management-System
-├── venev                          # Virtual Environment will create when create venv using Readme file
-├── assets                         # Containing assets images files
-├── dependencies                   # Setup files of dependent softwares that needed for work
-├── ├── Python v3.12.4 installer 64 bit.exe   # Python Setup
-├── ├── wkhtmltopdf-0.12.exe                  # Html to PDF report files maker
-├── └─  sqlite_db_browser.exe                 # Manage & View SQLite Databse files
-├── assets                         # Containing assets images files
-├── ├── logo.png
-├── └─  icon.png
-├── README.md                      # Read Me File with all  A to Z Instructions
-├── requirements.txt               # List of python packages/lib on each separate line to Install in venv
-├── run_app.bat                    # Batch file to activate venv & trigger main.py
-├── database.py                    # Database connection/setup logic (Schemas)
-├── initial_data.py                # Insert initial data logic
-├── main.py                        # main File that triggered by run_app batch, then further trigger the splash screen
-├── admin_dashboard_screen.py
-├── salesman_dashboard_screen.py
-├── assign_authorization_screen.py
-├── login_screen.py
-├── manage_authorization_screen.py
-├── manage_permissions_screen.py
-├── manage_roles_screen.py
-├── manage_spare_parts_screen.py
-├── manage_users_screen.py
-├── sale_transaction_screen.py
-├── purchase_transaction_screen.py
-├── record_transaction_screen.py
-├── update_transaction_screen.py
-├── view_transactions_screen.py
-├── report_template.html
-├── reporting_screen.py
-├── login_screen.py
-├── signup_screen.py
-├── splash_screen.py
-├── authorization.py    # Backend Controller
-├── users.py            # Backend Controller
-├── auth.py             # Backend Controller
-├── roles.py            # Backend Controller
-├── permissions.py      # Backend Controller
-├── inventory.py        # Backend Controller
-├── transactions.py     # Backend Controller
-├── validate_input.py   # Validator
-├── sync.py
-└── utils.py
 
-
-----------------------
 ## 01 Project Title ##
-----------------------
+
 The "Mobile Spare-Parts Management System MSPMS" - Desktop Application - Python Tkinter 
 
 
-----------------------------
 ## 02 Project Description ##
-----------------------------
 
 The Mobile Spare Parts Management System (MSPMS) is a versatile and robust desktop application 
 tailored to streamline the management of spare parts inventory, user roles, and business transactions. 
@@ -84,9 +25,7 @@ and interactive user interface, SPMS offers an intuitive and user-friendly exper
 technical and non-technical users.
 
 
--------------------------
 ## 03 Project Features ##
--------------------------
 
 1. Database Management:
 * Local database: SQLite for offline data storage.
@@ -120,9 +59,7 @@ technical and non-technical users.
 * Modular code structure for easy maintenance and scalability.
 
 
-----------------------
 ## 04 Project Tools ##
-----------------------
 
 1. Python:
 Backbone of the application for developing the user interface, logic, and database interactions.
@@ -137,9 +74,7 @@ A user-friendly tool for managing and viewing local SQLite databases.
 A web-based tool for managing MySQL databases hosted locally or remotely.
 
 
-----------------------
 ## 05 Prerequisites ##
-----------------------
 
 ### 1. Install Python ###
 1. Download and install Python from their original website:
@@ -159,9 +94,7 @@ A web-based tool for managing MySQL databases hosted locally or remotely.
    Mobile Spare Parts Management System MSPMS/dependency/wkhtmltopdf
 
 
--------------------------------
 ## 06 Setting Up the Project ##
--------------------------------
 
 ### Step 1: Create & Activate a Virtual Environment ###
 1. Open your terminal or command prompt (CMD) in the project directory.
@@ -180,10 +113,7 @@ A web-based tool for managing MySQL databases hosted locally or remotely.
    pip install -r requirements.txt
 
 
-
----------------------------
 ## 07 Usage Instructions ##
----------------------------
 
 ### Step 1: Create Databases ###
 1. Run the database.py file to set up databases.
@@ -202,10 +132,7 @@ A web-based tool for managing MySQL databases hosted locally or remotely.
 3. Recommended method is Point 2 to run application.
 
 
- 
------------------------------------------------
 ## 08 Login Credentials (Initial Dummy Data) ##
------------------------------------------------
 
 1. Admin
    Username: admin
@@ -216,13 +143,12 @@ A web-based tool for managing MySQL databases hosted locally or remotely.
    Password: Salesman@123
 
 
-
------------
 ## Notes ##
------------
 
 1. Ensure Python and its libraries are correctly installed, as the application 
    will not function otherwise.
 2. Follow the setup steps precisely to avoid errors.
+
+
 
 
