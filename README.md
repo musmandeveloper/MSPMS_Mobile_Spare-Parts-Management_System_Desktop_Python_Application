@@ -79,7 +79,7 @@ A web-based tool for managing MySQL databases hosted locally or remotely.
 ## 🌐 Live Demo:
 To get live demo, visit the below platform:
 
-1. [Website](https://musmandeveloper.vercel.app)
+
 
 
 ## 🛠️ Installation:
