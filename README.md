@@ -215,7 +215,7 @@ Your contributions make this project better and more impactful. Thank you for ta
 
 
 ## 📜 License:
-This project is licensed under the [MIT License]((https://opensource.org/licenses/MIT). You are free to use, modify, and distribute the code as per the terms of the license.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute the code as per the terms of the license.
 
 ### What This Means for You ###
 
