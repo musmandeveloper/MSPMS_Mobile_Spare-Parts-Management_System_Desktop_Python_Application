@@ -166,10 +166,10 @@ Follow below insructions to use & run the project:
 ## 💬 Contact:
 You can contact me using below methods:
 
-1. [Email](mailto:usmanedu8250998@gmail.com)
-2. [Linkedin](https://www.linkedin.com/in/musmandeveloper)
-3. [GitHub](https://github.com/musmandeveloper)
-4. [Portfolio Website](https://musmandeveloper.vercel.app)
+1. [Email - usmanedu8250998@gmail.com](mailto:usmanedu8250998@gmail.com)
+2. [Linkedin - musmandeveloper](https://www.linkedin.com/in/musmandeveloper)
+3. [GitHub - musmandeveloper](https://github.com/musmandeveloper)
+4. [Portfolio Website - musmandeveloper.vercel.app](https://musmandeveloper.vercel.app)
 
 
 ## 👨‍💻 Contribution ##
