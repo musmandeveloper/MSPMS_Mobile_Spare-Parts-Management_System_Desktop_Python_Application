@@ -1,15 +1,8 @@
 
-## 00 Project Structure ##
-
-![Project Structure Image ](https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f)
+# Mobile Spare Parts Management System (MSPMS) #
 
 
-## 01 Project Title ##
-
-The "Mobile Spare-Parts Management System MSPMS" - Desktop Application - Python Tkinter 
-
-
-## 02 Project Description ##
+## Project Description ##
 
 The Mobile Spare Parts Management System (MSPMS) is a versatile and robust desktop application 
 tailored to streamline the management of spare parts inventory, user roles, and business transactions. 
@@ -25,7 +18,12 @@ and interactive user interface, SPMS offers an intuitive and user-friendly exper
 technical and non-technical users.
 
 
-## 03 Project Features ##
+## Project Structure & Screenshots ##
+
+![Project Structure Image ](https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f)
+
+
+## Project Features ##
 
 1. Database Management:
 * Local database: SQLite for offline data storage.
@@ -74,7 +72,7 @@ A user-friendly tool for managing and viewing local SQLite databases.
 A web-based tool for managing MySQL databases hosted locally or remotely.
 
 
-## 05 Prerequisites ##
+## Prerequisites ##
 
 ### 1. Install Python ###
 1. Download and install Python from their original website:
@@ -94,7 +92,7 @@ A web-based tool for managing MySQL databases hosted locally or remotely.
    Mobile Spare Parts Management System MSPMS/dependency/wkhtmltopdf
 
 
-## 06 Setting Up the Project ##
+## Setting Up the Project ##
 
 ### Step 1: Create & Activate a Virtual Environment ###
 1. Open your terminal or command prompt (CMD) in the project directory.
@@ -113,7 +111,7 @@ A web-based tool for managing MySQL databases hosted locally or remotely.
    pip install -r requirements.txt
 
 
-## 07 Usage Instructions ##
+## Usage Instructions ##
 
 ### Step 1: Create Databases ###
 1. Run the database.py file to set up databases.
@@ -132,7 +130,7 @@ A web-based tool for managing MySQL databases hosted locally or remotely.
 3. Recommended method is Point 2 to run application.
 
 
-## 08 Login Credentials (Initial Dummy Data) ##
+## Login Credentials (Initial Dummy Data) ##
 
 1. Admin
    Username: admin
@@ -143,7 +141,7 @@ A web-based tool for managing MySQL databases hosted locally or remotely.
    Password: Salesman@123
 
 
-## Notes ##
+## Note ##
 
 1. Ensure Python and its libraries are correctly installed, as the application 
    will not function otherwise.
