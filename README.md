@@ -22,10 +22,9 @@ technical and non-technical users.
 ## 📸 Screenshots:
 Below are the following screenshots (SS) of the project:
 
-
-Below image 
-<center><img src="https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f" alt="MSPMS-Project Folder Structure" /></center>center>
-Below image
+Image 01 - Project Folder Structure: 
+<center><img src="https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f" alt="MSPMS-Project Folder Structure" /></center>
+Image 02:
 
 ## 🎥 Videos:
 Below are the videos of the project:
