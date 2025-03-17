@@ -22,7 +22,7 @@ technical and non-technical users.
 ## 📸 Screenshots:
 Below are the following screenshots (SS) of the project:
 
-[Project Folder Structure Image](https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f)
+![Project Folder Structure Image](https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f)
 
 ## 🎥 Videos:
 Below are the videos of the project:
