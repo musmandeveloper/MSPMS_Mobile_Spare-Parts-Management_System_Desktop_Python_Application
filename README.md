@@ -23,9 +23,11 @@ technical and non-technical users.
 Below are the following screenshots (SS) of the project:
 
 Image 01 - Project Folder Structure: 
-<center><img src="https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f" alt="MSPMS-Project Folder Structure" /></center>
+<center><img src="https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f" alt="MSPMS - Project Folder Structure" /></center>
 
-Image 02:
+Image 02 - Project Database ERD:
+<center><img src="https://github.com/user-attachments/assets/a0f48556-36a5-4be6-8bc1-52a7ac20b5dc" alt="MSPMS - Project Database ERD" /></center>
+
 
 ## 📸 Screenshots Gallery:
 Below are the following screenshots (SS) of the project:
