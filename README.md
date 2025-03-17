@@ -30,8 +30,13 @@ Image 02:
 ## 📸 Screenshots Gallery:
 Below is the gallery/slider of the screenshots (SS) of the project:
 
-| ![Image 01](https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f) | ![Image 01](https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f) |
-
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f" alt="MSPMS-Project Folder Structure"  width='200' /></td>
+     <td><img src="https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f" alt="MSPMS-Project Folder Structure"  width='200' /></td>
+     <td><img src="https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f" alt="MSPMS-Project Folder Structure"  width='200' /></td>
+  </tr>
+</table>
 
 ## 🎥 Videos:
 Below are the videos of the project:
