@@ -28,7 +28,7 @@ Image 01 - Project Folder Structure:
 Image 02:
 
 ## 📸 Screenshots Gallery:
-Below is the gallery/slider of the screenshots (SS) of the project:
+Below are the following screenshots (SS) of the project:
 
 <table>
   <tr>
@@ -39,7 +39,7 @@ Below is the gallery/slider of the screenshots (SS) of the project:
 </table>
 
 ## 🎥 Videos:
-Below are the videos of the project:
+Below are the following videos of the project:
 
 [Demo Video of MSPMS Project](https://github.com/user-attachments/assets/e653a4eb-aca6-4dd8-a0a9-87f2f55ae5e7)
 
