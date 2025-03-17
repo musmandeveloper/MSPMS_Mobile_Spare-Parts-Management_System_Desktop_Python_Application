@@ -23,11 +23,13 @@ technical and non-technical users.
 Below are the following screenshots (SS) of the project:
 
 ![Project Folder Structure Image](https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f)
+Below img 
+<img src="https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f" alt="MSPMS-Project Folder Structure" width="200" height="400"/>
 
 ## 🎥 Videos:
 Below are the videos of the project:
 
-[Demo Video of Project](https://github.com/user-attachments/assets/e653a4eb-aca6-4dd8-a0a9-87f2f55ae5e7)
+[Demo Video of MSPMS Project](https://github.com/user-attachments/assets/e653a4eb-aca6-4dd8-a0a9-87f2f55ae5e7)
 
 ## 🚀 Features:
 The project have following features:
