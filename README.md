@@ -32,9 +32,9 @@ Below is the gallery/slider of the screenshots (SS) of the project:
 
 <table>
   <tr>
+    <td><img src="https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f" alt="MSPMS-Project Folder Structure"  width='500' /></td>
     <td><img src="https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f" alt="MSPMS-Project Folder Structure"  width='200' /></td>
-     <td><img src="https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f" alt="MSPMS-Project Folder Structure"  width='200' /></td>
-     <td><img src="https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f" alt="MSPMS-Project Folder Structure"  width='200' /></td>
+    <td><img src="https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f" alt="MSPMS-Project Folder Structure"  width='500' /></td>
   </tr>
 </table>
 
