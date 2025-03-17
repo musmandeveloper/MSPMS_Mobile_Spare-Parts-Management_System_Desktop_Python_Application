@@ -24,7 +24,7 @@ Below are the following screenshots (SS) of the project:
 
 ![Project Folder Structure Image](https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f)
 Below img 
-<img src="https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f" alt="MSPMS-Project Folder Structure" width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/29fa6803-4293-461c-a143-afbf54e3bd8f" alt="MSPMS-Project Folder Structure" width="800" height="1000"/>
 
 ## 🎥 Videos:
 Below are the videos of the project:
